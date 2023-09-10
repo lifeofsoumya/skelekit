@@ -1,0 +1,1 @@
+export { default as Skelekit } from './src/Skelekit';
