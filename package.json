@@ -1,9 +1,8 @@
 {
   "name": "skelekit",
-  "version": "0.1.9",
+  "version": "0.2.9",
   "description": "A React skeleton component package",
   "scripts": {
-    "main": "./index.js",
     "build": "webpack"
   },
   "repository": {
@@ -21,19 +20,19 @@
   "exports": {
     "./Skelekit.js": "./src/Skelekit.js",
     ".": {
-      "import": "./index.js"
+      "import": "./src/index.js"
     },
     "./skeleton.css": "./src/skeleton.css"
   },
-  "main": "./index.js",
+  "main": "./src/index.js",
   "files": [
-    "src/"
+    "src/**/*"
   ],
   "author": "lifeofsoumya",
   "license": "MIT",
   "peerDependencies": {
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.22.17",
@@ -41,8 +40,8 @@
     "@babel/preset-react": "^7.22.15",
     "babel-loader": "^9.1.3",
     "css-loader": "^6.8.1",
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "style-loader": "^3.3.3",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
